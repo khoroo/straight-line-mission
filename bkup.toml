@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "straight-line-mission"
+version = "0.1.0"
+description = ""
+authors = ["Rob Sparks"]
+
+[tool.poetry.dependencies]
+python = "3.8.12"
+rioxarray = "^0.9.1"
+earthpy = "^0.9.4"
+
+[tool.poetry.dev-dependencies]
+black = "^21.12b0"
+ipython = "^8.0.0"
+jupyter = "^1.0.0"
+flake8 = "^4.0.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
